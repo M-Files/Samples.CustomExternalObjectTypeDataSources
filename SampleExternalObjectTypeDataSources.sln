@@ -12,6 +12,19 @@ EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Json\Setup\Setup.vdproj", "{67C08EAB-76B6-48E2-A974-8EF879ACCB5C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Json", "Json", "{F7F6F93C-5E8F-47F3-808D-60749875B996}"
+	ProjectSection(SolutionItems) = preProject
+		Json\Readme.md = Json\Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{17C76A52-B246-4A4A-B368-32E609FE1202}"
+	ProjectSection(SolutionItems) = preProject
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE.md = LICENSE.md
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{A3C19B75-736B-4B48-9492-B147A77381B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +79,7 @@ Global
 		{65DB6718-E135-4E5B-A26E-4F5310F563FD} = {F7F6F93C-5E8F-47F3-808D-60749875B996}
 		{454AD3DB-2AD1-4C1B-933D-E075637F4038} = {F7F6F93C-5E8F-47F3-808D-60749875B996}
 		{67C08EAB-76B6-48E2-A974-8EF879ACCB5C} = {F7F6F93C-5E8F-47F3-808D-60749875B996}
+		{F7F6F93C-5E8F-47F3-808D-60749875B996} = {A3C19B75-736B-4B48-9492-B147A77381B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3184AE2-0E68-4381-ADDF-55A3D16A5BD2}
